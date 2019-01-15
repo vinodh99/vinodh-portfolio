@@ -5,3 +5,16 @@
 .bg-primary{
     /* height: 1200px !important; */
 }
+
+hr.star-light:after, hr.star-dark:after{
+    opacity: 0;
+}
+.text-center{
+    text-align: center;
+    color: white;
+    font-weight: 700
+}
+
+.glyphicon-earphone:before {
+    content: "\e182";
+}
