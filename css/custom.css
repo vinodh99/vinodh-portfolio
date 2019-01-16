@@ -18,3 +18,10 @@ hr.star-light:after, hr.star-dark:after{
 .glyphicon-earphone:before {
     content: "\e182";
 }
+
+.skillset{
+    background-color: white
+}
+.portfolio{
+    background-color: #4BABC9
+}
