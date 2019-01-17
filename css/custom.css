@@ -25,3 +25,21 @@ hr.star-light:after, hr.star-dark:after{
 .portfolio{
     background-color: #4BABC9
 }
+.nav-link .py-3 .px-0 .px-lg-3 .rounded .js-scroll-trigger >.active{
+    background-color: coral !important;
+}
+
+/* @media (min-width: 992px) */
+.mainNav .navbar-nav>li.nav-item>a.nav-link.active{
+    background-color: coral !important;
+}
+.myown:hover{
+    color:rgb(73, 161, 196) !important
+}
+.myown.active{
+    background-color: rgb(23, 127, 187)!important;
+}
+
+.image{
+    margin: auto
+}
