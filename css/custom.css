@@ -2,8 +2,12 @@
     background-color: burlywood
 }
 
-.bg-primary{
+.bgpic{
+    /* background-image: url("../img/IMG_0423.JPG")!important */
     /* height: 1200px !important; */
+}
+.bg-primary{
+    background-color: white !important
 }
 
 hr.star-light:after, hr.star-dark:after{
