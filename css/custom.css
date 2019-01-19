@@ -1,13 +1,34 @@
 .about{
     background-color: burlywood
 }
-
 .bgpic{
-    /* background-image: url("../img/IMG_0423.JPG")!important */
-    /* height: 1200px !important; */
+    background-image: url(../img/IMG_0423.JPG)!important;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100% !important;
 }
-.bg-primary{
-    background-color: white !important
+
+@media (max-width: 414px) {
+    .bgpic {
+        background-image: url(../img/IMG_1418.JPG)!important;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        width: 100% !important;    
+    }
+}
+
+@media (max-width: 414px) {
+    .intro-text {
+           padding-top: 40vh;
+    }
+}
+.bgmenu{
+    background-color: darkgray !important;
+}
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover{
+    background-color: darkgray !important
 }
 
 hr.star-light:after, hr.star-dark:after{
